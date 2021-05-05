@@ -6,7 +6,7 @@ public class MinimumElement {
 
     public static int readInteger(){
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enters count: ");
+        System.out.println("Enter count: ");
         int readInteger=scanner.nextInt();
         return readInteger;
     }
