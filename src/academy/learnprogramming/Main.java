@@ -88,7 +88,7 @@ public class Main {
         }
        else{
            System.out.println(searchItem + " is not in the list.");
-        }*/
+        }
         boolean quit = false;
         startPhone();
         printActions();
@@ -207,7 +207,7 @@ public class Main {
                 "4  - to remove an existing contact\n" +
                 "5  - query if an existing contact exists\n" +
                 "6  - to print a list of available actions.");
-        System.out.println("Choose your action: ");
+        System.out.println("Choose your action: "); */
     }
 }
 
