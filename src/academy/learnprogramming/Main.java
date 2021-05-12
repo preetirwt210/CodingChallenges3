@@ -1,6 +1,7 @@
 package academy.learnprogramming;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -208,5 +209,14 @@ public class Main {
                 "5  - query if an existing contact exists\n" +
                 "6  - to print a list of available actions.");
         System.out.println("Choose your action: "); */
+
+      ISaveable value1=new Monster("Werewolf",20,40);
+      List values=value1.write();
+      value1.read(values);
+      System.out.println(value1.toString());
+        ISaveable value2=new Player("Tim",10,15);
+        List values2=value2.write();
+        value2.read(values2);
+        System.out.println(value2.toString());
     }
 }
