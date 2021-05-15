@@ -257,7 +257,7 @@ public class Main {
         League reallyRaw = new League("Really raw");
         reallyRaw.add(adelaideCrows);     // unchecked warning
         reallyRaw.add(baseballTeam);    // unchecked warning
-        reallyRaw.add(rawTeam);         // unchecked warning*/
+        reallyRaw.add(rawTeam);         // unchecked warning
 
         for(int i=0; i <=10; i++) {
            // System.out.println("Sum of n numbers are: ");
@@ -272,7 +272,9 @@ public class Main {
         for(int i=0; i<=10; i++) {
          //   System.out.println("fibonacci of n numbers are: ");
             System.out.println(Series.fibonacci(i));
-        }
+        }*/
+        X x = new X(new Scanner(System.in));
+        x.x();
     }
 }
 
