@@ -272,9 +272,15 @@ public class Main {
         for(int i=0; i<=10; i++) {
          //   System.out.println("fibonacci of n numbers are: ");
             System.out.println(Series.fibonacci(i));
-        }*/
+        }
         X x = new X(new Scanner(System.in));
-        x.x();
+        x.x();*/
+
+        System.out.println("Main method called");
+        SIBTest test = new SIBTest();
+        test.someMethod();
+        System.out.println("Owner is " + SIBTest.owner);
+
     }
 }
 
