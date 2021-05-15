@@ -1,5 +1,7 @@
 package academy.learnprogramming;
 
+import com.preeti.newSeriesTest.Series;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -217,7 +219,7 @@ public class Main {
         ISaveable value2=new Player("Tim",10,15);
         List values2=value2.write();
         value2.read(values2);
-        System.out.println(value2.toString());*/
+        System.out.println(value2.toString());
 
         League<Team<FootballPlayer>> footballLeague = new League<>("AFL");
         Team<FootballPlayer> adelaideCrows = new Team<>("Adelaide Crows");
@@ -255,8 +257,22 @@ public class Main {
         League reallyRaw = new League("Really raw");
         reallyRaw.add(adelaideCrows);     // unchecked warning
         reallyRaw.add(baseballTeam);    // unchecked warning
-        reallyRaw.add(rawTeam);         // unchecked warning
+        reallyRaw.add(rawTeam);         // unchecked warning*/
 
+        for(int i=0; i <=10; i++) {
+           // System.out.println("Sum of n numbers are: ");
+            System.out.println(Series.nSum(i));
+        }
+        System.out.println("*****************************");
+        for(int i=0; i<=10; i++) {
+         //   System.out.println("factorial of n numbers are: ");
+            System.out.println(Series.factorial(i));
+        }
+        System.out.println("*****************************");
+        for(int i=0; i<=10; i++) {
+         //   System.out.println("fibonacci of n numbers are: ");
+            System.out.println(Series.fibonacci(i));
+        }
     }
 }
 
